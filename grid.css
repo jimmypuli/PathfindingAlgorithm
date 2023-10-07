@@ -1,0 +1,35 @@
+
+
+.grid-container{
+    width: 309px;
+    height: 309px;
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    background-color:black;
+    padding: 1px;
+    grid-gap: 1px;
+}
+
+.grid-item{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px; 
+}
+
+.red{ 
+    text-align: center;
+    padding: 10px;
+}
+
+.starting-block{
+    background-color: rgb(116, 219, 116); 
+    text-align: center;
+    padding: 10px; 
+}
+
+p{
+    width: 600px;
+}
+
+
